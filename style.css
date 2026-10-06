@@ -1,18 +1,9 @@
-/* Ensure padding and borders are included in total width calculations */
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  color: #333333;
-}
 
-/* ========================================== */
-/* TASK 0: RESPONSIVE TYPOGRAPHY              */
-/* ========================================== */
 
-/* Mobile (Default): Small sizes */
 .responsive-heading {
   font-size: 1.5rem;
   font-weight: bold;
@@ -22,7 +13,6 @@ body {
   line-height: 1.5;
 }
 
-/* Tablet (768px and up): Medium sizes */
 @media (min-width: 768px) {
   .responsive-heading {
     font-size: 2rem;
@@ -32,7 +22,6 @@ body {
   }
 }
 
-/* Desktop (992px and up): Large sizes */
 @media (min-width: 992px) {
   .responsive-heading {
     font-size: 2.5rem;
@@ -42,9 +31,6 @@ body {
   }
 }
 
-/* ========================================== */
-/* TASK 1: RESPONSIVE LAYOUT (MEDIA QUERIES)  */
-/* ========================================== */
 
 .mq-container {
   display: flex;
@@ -60,12 +46,10 @@ body {
   font-weight: bold;
 }
 
-/* Mobile (Default): Full width stacked vertically */
 .mq-box {
   flex: 0 0 100%;
 }
 
-/* Tablet (768px to 991px): 2 boxes on top row, 1 box full width on bottom row */
 @media (min-width: 768px) and (max-width: 991px) {
   .mq-box {
     flex: 0 0 calc(50% - 7.5px);
@@ -75,7 +59,6 @@ body {
   }
 }
 
-/* Desktop (992px and up): All 3 boxes side-by-side in a single row */
 @media (min-width: 992px) {
   .mq-box {
     flex: 0 0 calc(33.333% - 10px);
