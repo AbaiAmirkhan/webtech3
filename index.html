@@ -5,20 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment 3 - Responsive Web Design</title>
   
-  <!-- Bootstrap 5 CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   
-  <!-- Custom CSS (MUST be linked after Bootstrap) -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ========================================== -->
-  <!-- PART 1: MEDIA QUERIES                      -->
-  <!-- ========================================== -->
-
   <section class="container my-5">
-    <!-- Task 0: Responsive Typography -->
     <div class="mb-5">
       <h2 class="h5 text-muted mb-2">Task 0: Responsive Typography</h2>
       <h1 class="responsive-heading">Responsive Heading</h1>
@@ -29,7 +22,6 @@
 
     <hr class="my-4">
 
-    <!-- Task 1: Responsive Layout with Media Queries -->
     <div>
       <h2 class="h5 text-muted mb-3">Task 1: Responsive Layout (Pure CSS Media Queries)</h2>
       <div class="mq-container">
@@ -42,12 +34,7 @@
 
   <hr class="container my-5">
 
-  <!-- ========================================== -->
-  <!-- PART 2: BOOTSTRAP GRID SYSTEM              -->
-  <!-- ========================================== -->
-
   <section class="container my-5">
-    <!-- Task 2: Bootstrap Responsive Columns -->
     <div class="mb-5">
       <h2 class="h5 text-muted mb-3">Task 2: Bootstrap Responsive Columns</h2>
       <div class="row g-3">
@@ -65,14 +52,12 @@
 
     <hr class="my-4">
 
-    <!-- Task 3: Bootstrap Navigation Bar -->
     <div>
       <h2 class="h5 text-muted mb-3">Task 3: Bootstrap Navigation Bar</h2>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold" href="#">Logo</a>
           
-          <!-- Hamburger Menu Toggle Button -->
           <button 
             class="navbar-toggler" 
             type="button" 
@@ -85,7 +70,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           
-          <!-- Collapsible Menu Content -->
           <div class="collapse navbar-collapse justify-content-end" id="task3Navbar">
             <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
@@ -101,14 +85,10 @@
 
   <hr class="container my-5">
 
-  <!-- ========================================== -->
-  <!-- PART 3: COMBINED PORTFOLIO PAGE            -->
-  <!-- ========================================== -->
 
   <section class="container my-5">
     <h2 class="h5 text-muted mb-4">Task 4: Responsive Portfolio Page</h2>
 
-    <!-- Header / Navbar -->
     <header class="mb-4">
       <nav class="navbar navbar-expand-lg navbar-dark bg-success rounded">
         <div class="container-fluid">
@@ -119,9 +99,6 @@
             type="button" 
             data-bs-toggle="collapse" 
             data-bs-target="#portfolioNav" 
-            aria-controls="portfolioNav" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -136,10 +113,8 @@
       </nav>
     </header>
 
-    <!-- Main Content Area -->
     <div class="row g-4" id="projects">
       
-      <!-- Left Side: Portfolio Cards Grid (Takes 8/12 cols on desktop) -->
       <main class="col-12 col-lg-8">
         <h3 class="h4 mb-3">My Projects</h3>
         <div class="row g-3">
@@ -187,7 +162,6 @@
         </div>
       </main>
 
-      <!-- Right Side: Sidebar Info (Takes 4/12 cols on desktop) -->
       <aside class="col-12 col-lg-4" id="sidebar-info">
         <div class="p-4 bg-light rounded border h-100">
           <h3 class="h4 mb-3">About Me</h3>
@@ -203,10 +177,9 @@
 
     </div>
 
-    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3 mt-5 rounded">
       <div class="container">
-        <p class="mb-0">&copy; 2026 Amirkhan. All Rights Reserved.</p>
+        <p class="mb-0">&copy;  All Rights Reserved.</p>
       </div>
     </footer>
   </section>
