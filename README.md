@@ -46,7 +46,7 @@ Create a responsive navigation bar using Bootstrap components.
 
 It should include: a logo on the left, links on the right, and collapse into a hamburger menu on smaller screens. 
 
- <img width="1153" height="730" alt="image" src="https://github.com/user-attachments/assets/3972de3e-2a4e-4829-a37e-9f5292aaf55e" />
+<img width="1051" height="580" alt="image" src="https://github.com/user-attachments/assets/3f53eceb-6d89-4645-94b2-615e0cc3e87d" />
 
 
 Part 3: Combined Project (Task 4 Portfolio) 
